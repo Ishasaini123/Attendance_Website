@@ -1,0 +1,21 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    /* background-color: aqua; */
+}
+
+.form{
+    text-align: center;
+    /* padding: 5% 0%; */
+    background-color: #25b79f;
+    
+}
+form button{
+    margin: 1%;
+    width: 4%;
+    border-radius: 5px;
+}
+.main{
+    padding: 5%;
+    background-color: #033b2f;
+}

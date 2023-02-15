@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+    /* background-color: aqua; */
+}
+.container{
+   
+    /* border: 2px solid black; */
+    display: flex;
+    /* height: 15vh; */
+    padding: 1%;
+    background-color: #25b79f;
+}
+.container img{
+    width: 8%;
+}
+.uiet{
+    width: 60%;
+    /* border: 2px solid blueviolet; */
+}
+.logout{
+    position: absolute;
+    /* margin-left: 91%; */
+    left: 91%;
+    /* bottom: 76%; */
+    /* top: 19vh; */
+    color: white;
+    /* display: none; */
+}
+.profile a{
+    text-decoration: none;
+    color: white;
+}
+.login{
+    width: 40%;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    padding-top: 30px;
+    font-size: large;
+    color: white;
+    /* display: none; */
+}
+.students{
+    width:35%;
+    /* border: 2px solid yellow; */
+    text-align: center;
+    
+}
+.User{
+    /* width:35%; */
+    text-align: center;
+    cursor: pointer;
+    margin-left: auto;
+}
+.User:hover{
+    color: #035a47;
+}
+
+
+.teachers{
+    width: 35%;
+    /* border: 2px solid yellow; */
+    text-align: center;
+    
+}
+
+.login a:hover{
+    color: #035a47;
+    cursor: pointer;
+}
+.login a{
+    color: white;
+    text-decoration: none;
+}
+.intro{
+    text-align: center;
+    /* margin: 10%; */
+    padding-top: 13%;
+    padding-bottom: 13%;
+    font-size: xx-large;
+    background-color:#25b79f;
+    
+
+}
+/* #s_corner{
+    border: none;
+    background: #25b79f;
+} */
+.first{
+    font-weight: bolder;
+    color: #033b2f;
+}
+.content{
+    padding: 2%;
+    /* font-size: large; */
+    line-height: 2;
+    /* font-style: oblique; */
+    /* height: 500px; */
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Oswald', sans-serif;
+}
+.second{
+    font-size: initial;
+    color: #035a47;
+}
+.departments{
+    display: flex;
+    margin-top: 5%;
+    padding-left: 10%;
+    /* height: 60vh; */
+    background-color: #25b79f;
+    padding-top: 5%;
+}
+
+.io{
+    width: 25%;
+    
+}
+.login_modal{
+    text-align: center;
+    /* display:none; */
+    background-color: aliceblue;
+    position: absolute;
+    width: 50%;
+    top: 35%;
+    margin: 0% 25%;
+}
+
+#create_account{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+#close{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}
+#createt_account{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+#closet{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}
+form{
+    margin: auto;
+    background-color: aliceblue;
+    /* position: absolute;
+    top: 35%;
+    left: 24%; */
+    padding: 0.5%;
+    border-radius: 1%;
+
+}
+input{
+    margin: 1%;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    width: 40%;
+    height: 20px;
+}
+.login_modal button{
+    
+    width: 12%;
+    margin: 1%;
+    padding: 1%;
+    font-weight: 600;
+}
+/* .content::before{
+    content: "";
+    background: url(./uiet.jpg);
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+} */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-linkedin {
+    background:#25b79f;
+    color: #033b2f;
+  }
+  
+  /* Twitter */
+  .fa-instagram {
+    background:#25b79f;
+    color:#033b2f;
+  }
+  .footer{
+     background-color: #25b79f;
+     padding: 5% 0%;
+    text-align: center;
+    color: #033b2f;
+  }
+  .contact{
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+  .social{
+    line-height: 2;
+    font-size: large;
+    color: #033b2f;
+  }
+  .social a{
+    text-decoration: none;
+    color: white;
+  }
+  .social a:hover{
+     color: #033b2f;
+     cursor: pointer;
+  }
+  .content a{
+    text-decoration: underline;
+    color: #25b79f;
+  }
+  .content a:hover{
+    color: #033b2f;
+     cursor: pointer;
+  }
